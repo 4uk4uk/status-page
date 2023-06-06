@@ -2,14 +2,12 @@ owner: 4uk4uk
 repo: status-page
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Потребителски Интерфейс
+    url: $WEBSITE_URL
+  - name: Администраторски Интерфейс
+    url: $ADMIN_URL
+  - name: API
+    url: $API_URL
 
 status-website:
   cname: status.4uk-4uk.com
