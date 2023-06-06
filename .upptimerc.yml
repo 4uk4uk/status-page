@@ -108,8 +108,6 @@ workflowSchedule:
     uptimeWeek: "7-day uptime"
     uptimeMonth: "30-day uptime"
     uptimeYear: "1-year uptime"
-    liveStatus: "Live Status"
     liveStatusHtmlComment: "<!--live status-->"
-    allSystemsOperational: "🟩 All systems operational"
     degradedPerformance: "🟨 Degraded performance"
     completeOutage: "🟥 Complete outage"
