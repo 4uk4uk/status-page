@@ -4,10 +4,13 @@ repo: status-page
 sites:
   - name: Потребителски интерфейс
     url: $WEBSITE_URL
+    maxResponseTime: 5000
   - name: Администраторски интерфейс
     url: $ADMIN_URL
+    maxResponseTime: 5000
   - name: REST API
     url: $API_URL
+    maxResponseTime: 5000
 
 status-website:
   cname: status.4uk-4uk.com
