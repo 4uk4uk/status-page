@@ -99,8 +99,6 @@ workflowSchedule:
     history: "История"
     responseTime: "Време за отговор"
     uptime: "Ъптайм"
-    degraded: "🟨 Деградирал"
-    down: "🟥 Не работи"
     responseTimeGraphAlt: "Графика с време за отг."
     ms: "ms"
     responseTime: "Време за отг."
