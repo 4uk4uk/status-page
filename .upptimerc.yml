@@ -66,14 +66,14 @@ workflowSchedule:
     rateLimitExceededTitle: Ограничен
     rateLimitExceededIntro: Надхвърлихте броя заявки, които можете да направите за един час, така че ще трябва да изчакате, преди да влезете отново в този уебсайт. Като алтернатива можете да добавите GitHub Personal Access Token, за да продължите да използвате този уебсайт.
     rateLimitExceededWhatDoesErrorMean: Какво значи тази грешка?
-    rateLimitExceededErrorMeaning: This website uses the GitHub API to access real-time data about our websites' status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed.
-    rateLimitExceededErrorHowCanFix: How can I fix it?
-    rateLimitExceededErrorFix: You can wait for another hour and your IP address' limit will be restored. Alternately, you can add your GitHub Personal Access Token, which gives you an additional 5,000 requests per hour.
-    rateLimitExceededGeneratePAT: Learn how to generate a Personal Access Token
-    rateLimitExceededHasSet: You have a personal access token set.
-    rateLimitExceededRemoveToken: Remove token
+    rateLimitExceededErrorMeaning: Този уебсайт използва GitHub API за достъп до данни в реално време за състоянието на нашите уебсайтове. По подразбиране GitHub позволява на всеки IP адрес 60 заявки на час, които сте консумирали.
+    rateLimitExceededErrorHowCanFix: Какво мога да направя за това?
+    rateLimitExceededErrorFix: Можете да изчакате още един час и лимитът на вашия IP адрес ще бъде възстановен. Като алтернатива можете да добавите своя GitHub Personal Access Token (PAT), който ви дава допълнителни 5000 заявки на час.
+    rateLimitExceededGeneratePAT: Виж как да генерираш Github PAT
+    rateLimitExceededHasSet: Имаш добавен Github PAT.
+    rateLimitExceededRemoveToken: Премахни токена
     rateLimitExceededGitHubPAT: GitHub Personal Access Token
-    rateLimitExceededCopyPastePAT: Copy and paste your token
+    rateLimitExceededCopyPastePAT: Копирай и постави своя PAT
     rateLimitExceededSaveToken: Запази токен
     errorTitle: Възникна грешка
     errorIntro: Възникна грешка при опита за получаване на най-новите подробности за състоянието.
@@ -89,8 +89,8 @@ workflowSchedule:
     durationMin: $DURATION минути
     incidentCompleted: Завършено
     incidentScheduled: Насрочено
-    duration24H: 24ч
-    duration7D: 7д
-    duration30D: 30д
-    duration1Y: 1г
+    duration24H: 24 часа
+    duration7D: 7 дни
+    duration30D: 30 дни
+    duration1Y: 1 година
     durationAll: всички
