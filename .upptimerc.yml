@@ -3,7 +3,7 @@ repo: status-page
 
 sites:
   - name: Потребителски интерфейс
-    url: $WEBSITE_URL
+    url: https://4uk-4uk.com
     maxResponseTime: 5000
   - name: Администраторски интерфейс
     url: $ADMIN_URL
