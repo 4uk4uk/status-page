@@ -13,7 +13,7 @@ sites:
 
 status-website:
   cname: status.4uk4uk.com
-  baseUrl: /
+  baseUrl: /status-page
   logoUrl: https://api.4uk-4uk.com/settings/vpfns-giphy.gif
   name: Чук-Чук статус
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
