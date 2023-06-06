@@ -15,9 +15,9 @@ sites:
 status-website:
   cname: status.4uk-4uk.com
   logoUrl: https://api.4uk-4uk.com/settings/vpfns-giphy.gif
-  name: Чук-Чук статус
+  name: Статус страница на Чук-Чук
   navbar:
-    - title: Статус
+    - title: Начало
       href: /
     - title: Обратно към Чук-Чук
       href: https://4uk-4uk.com
@@ -34,63 +34,88 @@ workflowSchedule:
   uptime: "*/5 * * * *"
 
   i18n:
-    activeIncidents: Активни инциденти
-    allSystemsOperational: Всички системи работят
+    activeIncidents: "Активни инциденти"
+    allSystemsOperational: "Всички системи работят"
     incidentReport: "Доклад за инцидент #$NUMBER →"
-    activeIncidentSummary: Отворено на $DATE с $POSTS публикации
-    incidentTitle: Подробности за инцидент $NUMBER
-    incidentDetails: Подробности за инцидент
-    incidentFixed: Разрешен
-    incidentOngoing: В момента 
-    incidentOpenedAt: Отворен на
-    incidentClosedAt: Затворен на
-    incidentViewOnGitHub: Вижте и се абонирайте в GitHub
-    incidentCommentSummary: Публикувано на $DATE от $AUTHOR
-    incidentBack: ← Назад към всички инциденти
-    pastIncidents: Минали инциденти
-    pastIncidentsResolved: Разрешено за $MINUTES минути с $POSTS публикации
-    liveStatus: Текущо състояние
+    activeIncidentSummary: "Отворено на $DATE с $POSTS публикации"
+    incidentTitle: "Подробности за инцидент $NUMBER"
+    incidentDetails: "Подробности за инцидент"
+    incidentFixed: "Разрешен"
+    incidentOngoing: "В момента" 
+    incidentOpenedAt: "Отворен на"
+    incidentClosedAt: "Затворен на"
+    incidentViewOnGitHub: "Вижте и се абонирайте в GitHub"
+    incidentCommentSummary: "Публикувано на $DATE от $AUTHOR"
+    incidentBack: "← Назад към всички инциденти"
+    pastIncidents: "Минали инциденти"
+    pastIncidentsResolved: "Разрешено за $MINUTES минути с $POSTS публикации"
+    liveStatus: "Текущо състояние"
     overallUptime: "Цялостен ъптайм: $UPTIME"
-    overallUptimeTitle: Цялостен ъптайм
+    overallUptimeTitle: "Цялостен ъптайм"
     averageResponseTime: "Средно време за отговор: $TIMEms"
-    averageResponseTimeTitle: Средно време за отговор
-    sevelDayResponseTime: Време за отговор (7 дни)
-    responseTimeMs: Време за отговор (ms)
-    up: Работи
-    down: Не работи
-    degraded: Деградиран
-    ms: ms
-    loading: Зарежда
-    navGitHub: GitHub
-    footer: Статус страница на [Чук-Чук](https://4uk-4uk.com). Задвижвана от [Upptime](https://upptime.js.org)
-    rateLimitExceededTitle: Ограничен
-    rateLimitExceededIntro: Надхвърлихте броя заявки, които можете да направите за един час, така че ще трябва да изчакате, преди да влезете отново в този уебсайт. Като алтернатива можете да добавите GitHub Personal Access Token, за да продължите да използвате този уебсайт.
-    rateLimitExceededWhatDoesErrorMean: Какво значи тази грешка?
-    rateLimitExceededErrorMeaning: Този уебсайт използва GitHub API за достъп до данни в реално време за състоянието на нашите уебсайтове. По подразбиране GitHub позволява на всеки IP адрес 60 заявки на час, които сте консумирали.
-    rateLimitExceededErrorHowCanFix: Какво мога да направя за това?
-    rateLimitExceededErrorFix: Можете да изчакате още един час и лимитът на вашия IP адрес ще бъде възстановен. Като алтернатива можете да добавите своя GitHub Personal Access Token (PAT), който ви дава допълнителни 5000 заявки на час.
-    rateLimitExceededGeneratePAT: Виж как да генерираш Github PAT
-    rateLimitExceededHasSet: Имаш добавен Github PAT.
-    rateLimitExceededRemoveToken: Премахни токена
-    rateLimitExceededGitHubPAT: GitHub Personal Access Token
-    rateLimitExceededCopyPastePAT: Копирай и постави своя PAT
-    rateLimitExceededSaveToken: Запази токен
-    errorTitle: Възникна грешка
-    errorIntro: Възникна грешка при опита за получаване на най-новите подробности за състоянието.
-    errorText: Може да опитате отново след няколко минути.
-    errorHome: Назад към началната страница
-    pastScheduledMaintenance: Предишни планирани профилактики
-    scheduledMaintenance: Планирана профилактика
-    scheduledMaintenanceSummaryStarted: Започнато на $DATE за $DURATION минути
-    scheduledMaintenanceSummaryStarts: Започва на $DATE за $DURATION minutes
-    startedAt: Започнато на
-    startsAt: Започва на
-    duration: Продължителност
-    durationMin: $DURATION минути
-    incidentCompleted: Завършено
-    incidentScheduled: Насрочено
-    duration24H: 24 часа
-    duration7D: 7 дни
-    duration30D: 30 дни
-    duration1Y: 1 година
-    durationAll: всички
+    averageResponseTimeTitle: "Средно време за отговор"
+    sevelDayResponseTime: "Време за отговор (7 дни)"
+    responseTimeMs: "Време за отговор (ms)"
+    up: "Работи"
+    down: "Не работи"
+    degraded: "Деградиран"
+    ms: "ms"
+    loading: "Зарежда"
+    navGitHub: "GitHub"
+    footer: "Статус страница на [Чук-Чук](https://4uk-4uk.com). Задвижвана от [Upptime](https://upptime.js.org)"
+    rateLimitExceededTitle: "Ограничен"
+    rateLimitExceededIntro: "Надхвърлихте броя заявки, които можете да направите за един час, така че ще трябва да изчакате, преди да влезете отново в този уебсайт. Като алтернатива можете да добавите GitHub Personal Access Token, за да продължите да използвате този уебсайт."
+    rateLimitExceededWhatDoesErrorMean: "Какво значи тази грешка?"
+    rateLimitExceededErrorMeaning: "Този уебсайт използва GitHub API за достъп до данни в реално време за състоянието на нашите уебсайтове. По подразбиране GitHub позволява на всеки IP адрес 60 заявки на час, които сте консумирали."
+    rateLimitExceededErrorHowCanFix: "Какво мога да направя за това?"
+    rateLimitExceededErrorFix: "Можете да изчакате още един час и лимитът на вашия IP адрес ще бъде възстановен. Като алтернатива можете да добавите своя GitHub Personal Access Token (PAT), който ви дава допълнителни 5000 заявки на час."
+    rateLimitExceededGeneratePAT: "Виж как да генерираш Github PAT"
+    rateLimitExceededHasSet: "Имаш добавен Github PAT."
+    rateLimitExceededRemoveToken: "Премахни токена"
+    rateLimitExceededGitHubPAT: "GitHub Personal Access Token"
+    rateLimitExceededCopyPastePAT: "Копирай и постави своя PAT"
+    rateLimitExceededSaveToken: "Запази токен"
+    errorTitle: "Възникна грешка"
+    errorIntro: "Възникна грешка при опита за получаване на най-новите подробности за състоянието."
+    errorText: "Може да опитате отново след няколко минути."
+    errorHome: "Назад към началната страница"
+    pastScheduledMaintenance: "Предишни планирани профилактики"
+    scheduledMaintenance: "Планирана профилактика"
+    scheduledMaintenanceSummaryStarted: "Започнато на $DATE за $DURATION минути"
+    scheduledMaintenanceSummaryStarts: "Започва на $DATE за $DURATION минути"
+    startedAt: "Започнато на"
+    startsAt: "Започва на"
+    duration: "Продължителност"
+    durationMin: "$DURATION минути"
+    incidentCompleted: "Завършено"
+    incidentScheduled: "Насрочено"
+    duration24H: "24 часа"
+    duration7D: "7 дни"
+    duration30D: "30 дни"
+    duration1Y: "1 година"
+    durationAll: "всички"
+    url: "Адрес"
+    status: "Статус"
+    history: "История"
+    responseTime: "Време за отговор"
+    uptime: "Ъптайм"
+    up: "🟩 Работи"
+    degraded: "🟨 Деградирал"
+    down: "🟥 Не работи"
+    responseTimeGraphAlt: "Графика с време за отг."
+    ms: "ms"
+    responseTime: "Време за отг."
+    responseTimeDay: "24 часа - време за отг."
+    responseTimeWeek: "7 дни - време за отг."
+    responseTimeMonth: "30 дни - време за отг."
+    responseTimeYear: "1 година - време за отг."
+    uptime: "All-time uptime"
+    uptimeDay: "24-hour uptime"
+    uptimeWeek: "7-day uptime"
+    uptimeMonth: "30-day uptime"
+    uptimeYear: "1-year uptime"
+    liveStatus: "Live Status"
+    liveStatusHtmlComment: "<!--live status-->"
+    allSystemsOperational: "🟩 All systems operational"
+    degradedPerformance: "🟨 Degraded performance"
+    completeOutage: "🟥 Complete outage"
