@@ -18,3 +18,5 @@ status-website:
       href: /
     - title: Обратно към Чук-Чук
       href: https://4uk-4uk.com
+
+skipDescriptionUpdate: true
