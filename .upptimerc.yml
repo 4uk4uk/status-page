@@ -32,3 +32,65 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
+
+  i18n:
+    activeIncidents: Активни инциденти
+    allSystemsOperational: Всички системи работят
+    incidentReport: "Доклад за инцидент #$NUMBER →"
+    activeIncidentSummary: Отворено на $DATE с $POSTS публикации
+    incidentTitle: Подробности за инцидент $NUMBER
+    incidentDetails: Подробности за инцидент
+    incidentFixed: Разрешен
+    incidentOngoing: В момента 
+    incidentOpenedAt: Отворен на
+    incidentClosedAt: Затворен на
+    incidentViewOnGitHub: Вижте и се абонирайте в GitHub
+    incidentCommentSummary: Публикувано на $DATE от $AUTHOR
+    incidentBack: ← Назад към всички инциденти
+    pastIncidents: Минали инциденти
+    pastIncidentsResolved: Разрешено за $MINUTES минути с $POSTS публикации
+    liveStatus: Текущо състояние
+    overallUptime: "Цялостен ъптайм: $UPTIME"
+    overallUptimeTitle: Цялостен ъптайм
+    averageResponseTime: "Средно време за отговор: $TIMEms"
+    averageResponseTimeTitle: Средно време за отговор
+    sevelDayResponseTime: Време за отговор (7 дни)
+    responseTimeMs: Време за отговор (ms)
+    up: Работи
+    down: Не работи
+    degraded: Деградиран
+    ms: ms
+    loading: Зарежда
+    navGitHub: GitHub
+    footer: Статус страница на [Чук-Чук](https://4uk-4uk.com). Задвижвана от [Upptime](https://upptime.js.org)
+    rateLimitExceededTitle: Ограничен
+    rateLimitExceededIntro: Надхвърлихте броя заявки, които можете да направите за един час, така че ще трябва да изчакате, преди да влезете отново в този уебсайт. Като алтернатива можете да добавите GitHub Personal Access Token, за да продължите да използвате този уебсайт.
+    rateLimitExceededWhatDoesErrorMean: Какво значи тази грешка?
+    rateLimitExceededErrorMeaning: This website uses the GitHub API to access real-time data about our websites' status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed.
+    rateLimitExceededErrorHowCanFix: How can I fix it?
+    rateLimitExceededErrorFix: You can wait for another hour and your IP address' limit will be restored. Alternately, you can add your GitHub Personal Access Token, which gives you an additional 5,000 requests per hour.
+    rateLimitExceededGeneratePAT: Learn how to generate a Personal Access Token
+    rateLimitExceededHasSet: You have a personal access token set.
+    rateLimitExceededRemoveToken: Remove token
+    rateLimitExceededGitHubPAT: GitHub Personal Access Token
+    rateLimitExceededCopyPastePAT: Copy and paste your token
+    rateLimitExceededSaveToken: Запази токен
+    errorTitle: Възникна грешка
+    errorIntro: Възникна грешка при опита за получаване на най-новите подробности за състоянието.
+    errorText: Може да опитате отново след няколко минути.
+    errorHome: Назад към началната страница
+    pastScheduledMaintenance: Предишни планирани профилактики
+    scheduledMaintenance: Планирана профилактика
+    scheduledMaintenanceSummaryStarted: Започнато на $DATE за $DURATION минути
+    scheduledMaintenanceSummaryStarts: Започва на $DATE за $DURATION minutes
+    startedAt: Започнато на
+    startsAt: Започва на
+    duration: Продължителност
+    durationMin: $DURATION минути
+    incidentCompleted: Завършено
+    incidentScheduled: Насрочено
+    duration24H: 24ч
+    duration7D: 7д
+    duration30D: 30д
+    duration1Y: 1г
+    durationAll: всички
