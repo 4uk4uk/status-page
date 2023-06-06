@@ -2,11 +2,11 @@ owner: 4uk4uk
 repo: status-page
 
 sites:
-  - name: Потребителски Интерфейс
+  - name: Потребителски интерфейс
     url: $WEBSITE_URL
-  - name: Администраторски Интерфейс
+  - name: Администраторски интерфейс
     url: $ADMIN_URL
-  - name: API
+  - name: REST API
     url: $API_URL
 
 status-website:
