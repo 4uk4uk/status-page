@@ -4,53 +4,59 @@
     "url": "https://4uk-4uk.com",
     "icon": "https://icons.duckduckgo.com/ip3/4uk-4uk.com.ico",
     "slug": "potrebitelski-interfejs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 504,
-    "timeDay": 525,
-    "timeWeek": 546,
-    "timeMonth": 504,
-    "timeYear": 504,
-    "dailyMinutesDown": {}
+    "time": 484,
+    "timeDay": 386,
+    "timeWeek": 509,
+    "timeMonth": 484,
+    "timeYear": 484,
+    "dailyMinutesDown": {
+      "2023-06-14": 0
+    }
   },
   {
     "name": "Администраторски интерфейс",
     "url": "$ADMIN_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "administratorski-interfejs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 709,
-    "timeDay": 758,
-    "timeWeek": 759,
-    "timeMonth": 709,
-    "timeYear": 709,
-    "dailyMinutesDown": {}
+    "time": 674,
+    "timeDay": 507,
+    "timeWeek": 696,
+    "timeMonth": 674,
+    "timeYear": 674,
+    "dailyMinutesDown": {
+      "2023-06-14": 0
+    }
   },
   {
     "name": "REST API",
     "url": "$API_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "rest-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 468,
-    "timeDay": 488,
-    "timeWeek": 517,
-    "timeMonth": 468,
-    "timeYear": 468,
-    "dailyMinutesDown": {}
+    "time": 449,
+    "timeDay": 356,
+    "timeWeek": 480,
+    "timeMonth": 449,
+    "timeYear": 449,
+    "dailyMinutesDown": {
+      "2023-06-14": 0
+    }
   }
 ]
